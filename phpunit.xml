@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<phpunit
+    colors="true"
+    failOnEmptyTestSuite="true"
+    testSuffix="Test.php">
+
+    <testsuites>
+        <testsuite name="Unit Tests">
+            <directory suffix="Test.php">tests</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
