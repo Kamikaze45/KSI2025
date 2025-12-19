@@ -5,8 +5,8 @@
     testSuffix="Test.php">
 
     <testsuites>
-        <testsuite name="Unit Tests">
-            <directory suffix="Test.php">tests</directory>
+        <testsuite name="All Tests By Filename">
+            <directory>.</directory>
         </testsuite>
     </testsuites>
 
